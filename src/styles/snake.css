@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.game-container {
+    border: 1px solid black;
+    padding: 2em;
+    background: salmon;
+}
+
+.game-over-container {
+    background: white;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset-button {
+    background-color: green;
+    border: 1px solid black;
+    padding: 1em;
+    color: antiquewhite;
+    font-size: 16px;
+    border-radius: 0.2em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
